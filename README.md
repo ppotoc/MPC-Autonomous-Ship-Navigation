@@ -1,5 +1,4 @@
 # MPC-Autonomous-Ship-Navigation
-Model predictive control-based autonomous ship navigation.
 
 MATLAB simulator for autonomous ship navigation using Model Predictive Control (MPC), COLREG-compliant collision avoidance, and chart-based path planning.
 _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
