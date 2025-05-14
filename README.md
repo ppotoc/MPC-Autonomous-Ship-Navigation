@@ -19,6 +19,7 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 
 ## Folder Structure
 
+<!-- TREEVIEW START -->
 MPC-Autonomous-Ship-Navigation/
 ├── data/ % Coastline data, icons, saved maps and planned route
 ├── docs/ % Published paper
@@ -27,6 +28,7 @@ MPC-Autonomous-Ship-Navigation/
 ├── main.m % Main simulation script
 ├── LICENCE % MIT License
 └── README.md % This file
+<!-- TREEVIEW END -->
 
 ---
 ## Getting Started
