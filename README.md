@@ -19,14 +19,14 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 
 ## Folder Structure
 
-`MPC-Autonomous-Ship-Navigation/<br>
-├── data/ ...... Coastline data, icons, saved maps and planned route<br>
-├── docs/ ...... Published paper<br>
-├── results/ ... Saved simulation videos<br>
-├── src/ ....... MATLAB simulation scripts<br>
-├── main.m ..... Main simulation script<br>
-├── LICENCE .... MIT License<br>
-└── README.md .. This file`
+`MPC-Autonomous-Ship-Navigation/`<br>
+`├── data/ ...... Coastline data, icons, saved maps and planned route`<br>
+`├── docs/ ...... Published paper`<br>
+`├── results/ ... Saved simulation videos`<br>
+`├── src/ ....... MATLAB simulation scripts`<br>
+`├── main.m ..... Main simulation script`<br>
+`├── LICENCE .... MIT License`<br>
+`└── README.md .. This file`
 
 ---
 ## Getting Started
