@@ -47,7 +47,7 @@ This project is licensed under the MIT License.
 ---
 ## Citation
 
-If you use this code, please cite our paper: 
+If you use this code, please cite our paper:<br>
 Potočnik, P. (2025). Model Predictive Control for Autonomous Ship Navigation with COLREG Compliance and Chart-Based Path Planning. Journal of Marine Science and Engineering [DOI].
 
 ---
