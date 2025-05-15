@@ -33,8 +33,7 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 
 ### Requirements
 - MATLAB R2024b or newer
-- Optimization Toolbox
-- Mapping Toolbox (for GSHHG)
+- Mapping Toolbox
 
 ### Start simulation
 1. Copy the repository to your local folder
