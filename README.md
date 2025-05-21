@@ -47,12 +47,39 @@ main
 ---
 ##  License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the LICENCE file for details.
+
+---
+## Theory and Associated Paper
+
+This project is based on the research paper:
+
+Potočnik, P. (2025). Model Predictive Control for Autonomous Ship Navigation with COLREG Compliance and Chart-Based Path Planning.
+_Journal of Marine Science and Engineering._ [DOI link – to be added when available]
+
+Summary
+The paper presents a novel control framework for autonomous ship navigation that integrates:
+
+A nonlinear ship model with predictive control for trajectory optimization.
+
+Real-time interpretation of COLREG collision avoidance rules.
+
+Chart-based coastal path planning using publicly available geospatial datasets.
+
+Robust performance in multi-agent scenarios with dynamic obstacle handling.
+
+This simulator implements the theoretical concepts from the paper and provides a testbed for practical validation of the proposed approach.
 
 ---
 ## Citation
 
-If you use this code, please cite our paper:<br>
-Potočnik, P. (2025). Model Predictive Control for Autonomous Ship Navigation with COLREG Compliance and Chart-Based Path Planning. _Journal of Marine Science and Engineering_ [DOI].
+If you use this code, please cite the associated paper:<br>
+@article{potocnik2025mpc,
+  author  = {Primož Potočnik},
+  title   = {Model Predictive Control for Autonomous Ship Navigation with COLREG Compliance and Chart-Based Path Planning},
+  journal = {Journal of Marine Science and Engineering},
+  year    = {2025},
+  doi     = {10.XXXX/jmseXXXXX}
+}
 
 ---
