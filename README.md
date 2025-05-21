@@ -16,18 +16,6 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 - Video export of simulation results
 
 
-## 📁 Folder Structure
-
-```
-├── data/ ...... Coastline data, icons, saved maps and planned route
-├── results/ ... Simulation video outputs
-├── src/ ....... Core MATLAB simulation scripts
-├── main.m ..... Entry-point for simulation
-├── LICENSE .... MIT License
-└── README.md .. Project overview (this file)
-```
-
-
 ## 🚀 Getting Started
 
 ### Requirements
@@ -41,6 +29,19 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 ```matlab
 main
 ```
+
+
+## 📁 Folder Structure
+
+```
+├── data/ ...... Coastline data, icons, saved maps and planned route
+├── results/ ... Simulation video outputs
+├── src/ ....... Core MATLAB simulation scripts
+├── main.m ..... Entry-point for simulation
+├── LICENSE .... MIT License
+└── README.md .. Project overview (this file)
+```
+
 
 ## 🎥 Simulation Example Results
 
