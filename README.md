@@ -84,7 +84,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🔗 External Dependencies
 
-This project integrates motion planning components adapted from the open-source repository:  
+The project integrates motion planning components adapted from the open-source repository:  
 [ai-winter/matlab_motion_planning](https://github.com/ai-winter/matlab_motion_planning)
 
 Special thanks to the authors for providing a foundation for path planning algorithms used in this simulator.
