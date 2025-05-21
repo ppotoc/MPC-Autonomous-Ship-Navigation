@@ -6,8 +6,6 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 2025 © Primož Potočnik, University of Ljubljana, 
 [Faculty of Mechanical Engineering](https://www.fs.uni-lj.si/en), [Faculty of Maritime Studies and Transport](https://www.fpp.uni-lj.si/en)
 
----
-
 ## 🚢 Features
 
 - Coastal path planning using GSHHG cartographic data
@@ -15,8 +13,6 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 - COLREG-compliant collision avoidance
 - Multi-ship dynamic encounters and collision avoidance
 - Video export of simulation results
-
----
 
 ## 📁 Folder Structure
 
@@ -29,7 +25,6 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 └── README.md .. Project overview (this file)
 ```
 
----
 ## 🚀 Getting Started
 
 ### Requirements
