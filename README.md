@@ -6,6 +6,7 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 2025 © Primož Potočnik, University of Ljubljana, 
 [Faculty of Mechanical Engineering](https://www.fs.uni-lj.si/en), [Faculty of Maritime Studies and Transport](https://www.fpp.uni-lj.si/en)
 
+
 ## 🚢 Features
 
 - Coastal path planning using GSHHG cartographic data
@@ -13,6 +14,7 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 - COLREG-compliant collision avoidance
 - Multi-ship dynamic encounters and collision avoidance
 - Video export of simulation results
+
 
 ## 📁 Folder Structure
 
@@ -24,6 +26,7 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 ├── LICENCE .... MIT License<br>
 └── README.md .. Project overview (this file)
 ```
+
 
 ## 🚀 Getting Started
 
@@ -39,12 +42,12 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 main
 ```
 
----
+
 ## 📜  License
 
 This project is licensed under the MIT License. See the LICENCE file for details.
 
----
+
 ## 🧠 Theory and Associated Paper
 
 This project is based on the research paper:
@@ -56,7 +59,7 @@ _Journal of Marine Science and Engineering_. [DOI link – to be added when avai
 
 Autonomous ship navigation systems must ensure both efficient route planning and compliance with the International Regulations for Preventing Collisions at Sea (COLREGs). This paper presents a novel Model Predictive Control (MPC) framework for Maritime Autonomous Surface Ships (MASS), which integrates COLREG-compliant colli-sion avoidance with trajectory tracking in complex maritime environments. The proposed approach generates feasible reference trajectories using predefined waypoints and mari-time charts, while the MPC controller ensures accurate path following and dynamic re-planning in response to nearby vessels or coastal obstacles. Coastal features and shore-lines are modeled using Global Self-consistent, Hierarchical, High-resolution Geography (GSHHG) data, allowing the MPC to treat landmasses as static obstacles. Other ships are represented as dynamic obstacles with varying speeds and headings, and COLREG rules are embedded within the MPC framework to enable rule-compliant maneuvering during vessel encounters. MATLAB-based simulation framework supports multi-vessel scenarios and includes a graphical interface for real-time visualization and analysis. Simulation results demonstrate that the proposed system successfully avoids collisions with both moving vessels and static coastal obstacles while following the shortest safe route. By combining chart-aware path planning and COLREG-compliant and MPC-based collision avoidance, the framework provides an effective and robust solution for autonomous mari-time navigation.
 
----
+
 ## 📚 Citation
 
 If you use this code, please cite the associated paper:
@@ -70,4 +73,3 @@ If you use this code, please cite the associated paper:
   doi     = {10.XXXX/jmseXXXXX}
 }
 ```
----
