@@ -35,7 +35,7 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 - Mapping Toolbox
 
 ### Start simulation
-1. Clone or download the repository
+1. Download the repository
 2. Open MATLAB and navigate to the project directory
 3. Run the simulation script:
 ```matlab
