@@ -8,7 +8,7 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 
 ---
 
-## Features
+## 🚢 Features
 
 - Coastal path planning using GSHHG cartographic data
 - Model Predictive Control (MPC) for ship navigation
@@ -18,7 +18,7 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 
 ---
 
-## Folder Structure
+## 📁 Folder Structure
 
 ```
 ├── data/ ...... Coastline data, icons, saved maps and planned route
@@ -30,7 +30,7 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 ```
 
 ---
-## Getting Started
+## 🚀 Getting Started
 
 ### Requirements
 - MATLAB R2024b or later
@@ -50,30 +50,23 @@ main
 This project is licensed under the MIT License. See the LICENCE file for details.
 
 ---
-## Theory and Associated Paper
+## 🧠 Theory and Associated Paper
 
 This project is based on the research paper:
 
-Potočnik, P. (2025). Model Predictive Control for Autonomous Ship Navigation with COLREG Compliance and Chart-Based Path Planning.
-_Journal of Marine Science and Engineering._ [DOI link – to be added when available]
+**Potočnik, P.** (2025). *Model Predictive Control for Autonomous Ship Navigation with COLREG Compliance and Chart-Based Path Planning*.  
+_Journal of Marine Science and Engineering_. [DOI link – to be added when available]
 
-Summary
-The paper presents a novel control framework for autonomous ship navigation that integrates:
+### Abstract
 
-A nonlinear ship model with predictive control for trajectory optimization.
-
-Real-time interpretation of COLREG collision avoidance rules.
-
-Chart-based coastal path planning using publicly available geospatial datasets.
-
-Robust performance in multi-agent scenarios with dynamic obstacle handling.
-
-This simulator implements the theoretical concepts from the paper and provides a testbed for practical validation of the proposed approach.
+Autonomous ship navigation systems must ensure both efficient route planning and compliance with the International Regulations for Preventing Collisions at Sea (COLREGs). This paper presents a novel Model Predictive Control (MPC) framework for Maritime Autonomous Surface Ships (MASS), which integrates COLREG-compliant colli-sion avoidance with trajectory tracking in complex maritime environments. The proposed approach generates feasible reference trajectories using predefined waypoints and mari-time charts, while the MPC controller ensures accurate path following and dynamic re-planning in response to nearby vessels or coastal obstacles. Coastal features and shore-lines are modeled using Global Self-consistent, Hierarchical, High-resolution Geography (GSHHG) data, allowing the MPC to treat landmasses as static obstacles. Other ships are represented as dynamic obstacles with varying speeds and headings, and COLREG rules are embedded within the MPC framework to enable rule-compliant maneuvering during vessel encounters. MATLAB-based simulation framework supports multi-vessel scenarios and includes a graphical interface for real-time visualization and analysis. Simulation results demonstrate that the proposed system successfully avoids collisions with both moving vessels and static coastal obstacles while following the shortest safe route. By combining chart-aware path planning and COLREG-compliant and MPC-based collision avoidance, the framework provides an effective and robust solution for autonomous mari-time navigation.
 
 ---
-## Citation
+## 📚 Citation
 
-If you use this code, please cite the associated paper:<br>
+If you use this code, please cite the associated paper:
+
+```bibtex
 @article{potocnik2025mpc,
   author  = {Primož Potočnik},
   title   = {Model Predictive Control for Autonomous Ship Navigation with COLREG Compliance and Chart-Based Path Planning},
@@ -81,5 +74,5 @@ If you use this code, please cite the associated paper:<br>
   year    = {2025},
   doi     = {10.XXXX/jmseXXXXX}
 }
-
+```
 ---
