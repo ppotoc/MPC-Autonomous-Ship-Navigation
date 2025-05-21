@@ -3,8 +3,8 @@
 MATLAB simulator for autonomous ship navigation using Model Predictive Control (MPC), COLREG-compliant collision avoidance, and chart-based path planning.<br>
 _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 
-2025 © Primož Potočnik, University of Ljubljana, 
-[Faculty of Mechanical Engineering](https://www.fs.uni-lj.si/en), [Faculty of Maritime Studies and Transport](https://www.fpp.uni-lj.si/en)
+2025 © Primož Potočnik*<br>
+*University of Ljubljana, [Faculty of Mechanical Engineering](https://www.fs.uni-lj.si/en), [Faculty of Maritime Studies and Transport](https://www.fpp.uni-lj.si/en)
 
 
 ## 🚢 Features
