@@ -20,10 +20,10 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 
 ```
 ├── data/ ...... Coastline data, icons, saved maps and planned route
-├── results/ ... Simulation video outputs<br>
-├── src/ ....... Core MATLAB simulation scripts<br>
-├── main.m ..... Entry-point for simulation<br>
-├── LICENCE .... MIT License<br>
+├── results/ ... Simulation video outputs
+├── src/ ....... Core MATLAB simulation scripts
+├── main.m ..... Entry-point for simulation
+├── LICENCE .... MIT License
 └── README.md .. Project overview (this file)
 ```
 
