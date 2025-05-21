@@ -11,9 +11,10 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 ## Features
 
 - Coastal path planning using GSHHG cartographic data
-- Model Predictive Control (MPC) for multi-ship navigation
-- COLREG-compliant behavior
+- Model Predictive Control (MPC) for ship navigation
+- COLREG-compliant collision avoidance
 - Multi-ship dynamic encounters and collision avoidance
+- Video export of simulation results
 
 ---
 
@@ -21,18 +22,18 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 
 ```
 ├── data/ ...... Coastline data, icons, saved maps and planned route
-├── results/ ... Saved simulation videos<br>
-├── src/ ....... MATLAB simulation scripts<br>
-├── main.m ..... Main simulation script<br>
+├── results/ ... Simulation video outputs<br>
+├── src/ ....... Core MATLAB simulation scripts<br>
+├── main.m ..... Entry-point for simulation<br>
 ├── LICENCE .... MIT License<br>
-└── README.md .. This file
+└── README.md .. Project overview (this file)
 ```
 
 ---
 ## Getting Started
 
 ### Requirements
-- MATLAB R2024b or newer
+- MATLAB R2024b or later
 - Mapping Toolbox
 
 ### Start simulation
