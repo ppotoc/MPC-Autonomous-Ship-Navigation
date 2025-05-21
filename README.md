@@ -21,7 +21,6 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 
 ```
 ├── data/ ...... Coastline data, icons, saved maps and planned route
-├── docs/ ...... Published paper<br>
 ├── results/ ... Saved simulation videos<br>
 ├── src/ ....... MATLAB simulation scripts<br>
 ├── main.m ..... Main simulation script<br>
