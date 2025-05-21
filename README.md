@@ -23,7 +23,7 @@ _Created with MATLAB R2024b. Compatible with MATLAB R2024b and later releases._
 ├── results/ ... Simulation video outputs
 ├── src/ ....... Core MATLAB simulation scripts
 ├── main.m ..... Entry-point for simulation
-├── LICENCE .... MIT License
+├── LICENSE .... MIT License
 └── README.md .. Project overview (this file)
 ```
 
