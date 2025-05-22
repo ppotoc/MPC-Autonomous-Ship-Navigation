@@ -31,6 +31,13 @@ main
 ```
 
 
+## ⚠️ Development Version Notice
+
+This repository contains a **development version** of the simulator.  
+Currently, core simulation files are distributed in the form of encrypted MATLAB `.p` files rather than open `.m` source files.  
+The final public release will include complete, documented `.m` source files to ensure transparency and reproducibility.
+
+
 ## 📁 Folder Structure
 
 ```
