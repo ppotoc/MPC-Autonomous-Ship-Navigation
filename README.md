@@ -69,20 +69,6 @@ This project is based on the research paper:
 Autonomous ship navigation systems must ensure both efficient route planning and compliance with the International Regulations for Preventing Collisions at Sea (COLREGs). This paper presents a novel Model Predictive Control (MPC) framework for Maritime Autonomous Surface Ships (MASS), which integrates COLREG-compliant colli-sion avoidance with trajectory tracking in complex maritime environments. The proposed approach generates feasible reference trajectories using predefined waypoints and maritime charts, while the MPC controller ensures accurate path following and dynamic re-planning in response to nearby vessels or coastal obstacles. Coastal features and shore-lines are modeled using Global Self-consistent, Hierarchical, High-resolution Geography (GSHHG) data, allowing the MPC to treat landmasses as static obstacles. Other ships are represented as dynamic obstacles with varying speeds and headings, and COLREG rules are embedded within the MPC framework to enable rule-compliant maneuvering during vessel encounters. MATLAB-based simulation framework supports multi-vessel scenarios and includes a graphical interface for real-time visualization and analysis. Simulation results demonstrate that the proposed system successfully avoids collisions with both moving vessels and static coastal obstacles while following the shortest safe route. By combining chart-aware path planning and COLREG-compliant and MPC-based collision avoidance, the framework provides an effective and robust solution for autonomous mari-time navigation.
 
 
-## 📚 Citation
-
-If you use this code, please cite the associated paper:
-
-```bibtex
-@article{potocnik2025mpc,
-  author  = {Primož Potočnik},
-  title   = {Model Predictive Control for Autonomous Ship Navigation with COLREG Compliance and Chart-Based Path Planning},
-  journal = {Journal of Marine Science and Engineering},
-  year    = {2025},
-  doi     = {10.XXXX/jmseXXXXX}
-}
-```
-
 ## 📜  License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
