@@ -43,7 +43,7 @@ main
 
 ## 🎥 Simulation Results
 
-Presentation from the MadeAI2025 conference (Porto, 2025)
+Presentation from the MadeAI2025 conference (Porto, 2025):
 
 - [MadeAI2025_Potocnik.mp4](results/MadeAI2025_Potocnik.mp4)
 
