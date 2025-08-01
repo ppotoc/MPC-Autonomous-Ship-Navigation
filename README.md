@@ -41,7 +41,7 @@ main
 ```
 
 
-## 🎥 Simulation Example Results
+## 🎥 Simulation Results
 
 Presentation from the MadeAI2025 conference (Porto, 2025)
 
